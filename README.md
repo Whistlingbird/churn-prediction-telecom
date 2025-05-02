@@ -11,36 +11,39 @@ The operator's team provided data on concluded contracts, personal data and info
 - Provide actionable business recommendations
 
 ## 📂 Data Description
-The dataset includes:
-- Personal data (age, gender, dependents, etc.)
-- Contract information (type of internet service, tenure, payment method)
-- 'begin','end','payed_years','e_billing','payment_method','month_charges','total_charges'
-- Service usage details (online security, phone service, streaming, etc.)
+The datasets include:
+- Personal data (age, gender, dependents)
+- Contract information (contract dates, payment method, charges)
+- Internet and phone services usage details (online security, phone service, TV, etc.)
 
 ## 🔧 Tools and Technologies
-- Python: pandas, numpy, matplotlib, seaborn
-- Machine Learning: CatBoost, XGBoost, LightGBM
+- Python: pandas, numpy, matplotlib, scipy, seaborn, sklearn
 - Jupyter Notebook
-- Metrics: ROC AUC, F1-score, Confusion Matrix
+- Machine Learning: GradientBoosting models, CrossValidation, Pipeline, OrdinalEncoder
+- Metrics: ROC AUC, Accuracy, Recall, Confusion Matrix, Phik
 - Feature importance analysis
 
 ## 🧪 Project Workflow
-1. Data cleaning and preprocessing
+1. Preprocessing and feature engineering
 2. Exploratory data analysis (EDA)
-3. Feature engineering and encoding
-4. Model training (boosting algorithms)
-5. Evaluation and comparison of models
+3. Encoding  
+4. Model training and evaluation
+5. Comparison of models and search for the optimal threshold
 6. Interpretation of results and business recommendations
 
 ## 📈 Key Results
-- Final model AUC: **0.87**
-- Important features: contract type, internet service, technical support, tenure
+- Final model AUC: **0.905**
+- Maximum accuracy is at threshold value 0.4. Recommended threshold is up to 0.4. Recall at 0.4 is 0.65
+- Important features: duration, charges
+- Identified risk groups
 - Suggested retention strategies for high-risk customer segments
 
 ## 📝 Business Recommendations
-- Target customers with short tenure and monthly contracts with loyalty offers
-- Improve customer support for users using multiple services
-- Monitor contract types that correlate with higher churn risk
+- A bonus program for risk groups
+- Restrain the growth of tariffs
+- Check the operation of the electronic check service
+- The recommended payment period is less than a year
+- Develop offers for married couples
 
 ## 📊 Visualizations
 ![Churn Distribution](images/churn_distribution.png)  
