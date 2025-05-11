@@ -47,5 +47,5 @@ The datasets include:
 
 ## 📊 Visualizations
 ![Churn Distribution](images/churn_distribution.png)  
-![Feature Importance](images/feature_importance.png)
-![Confusion Matrix](images/confusion_matrix.png)
+<img src="images/feature_importance.png" alt="Feature Importance" width="800%"/>
+<img src="images/confusion_matrix.png" alt="Confusion Matrix" width="40%"/>
