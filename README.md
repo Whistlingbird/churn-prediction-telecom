@@ -16,6 +16,103 @@ The datasets include:
 - Contract information (contract dates, payment method, charges)
 - Internet and phone services usage details (online security, phone service, TV, etc.)
 
+   *Merged dataset*
+<table>
+  <thead>
+    <tr>
+      <th>id</th>
+      <th>payed_years</th>
+      <th>e_billing</th>
+      <th>payment_method</th>
+      <th>month_charges</th>
+      <th>total_charges</th>
+      <th>finish</th>
+      <th>days</th>
+      <th>senior</th>
+      <th>male</th>
+      <th>has_partner</th>
+      <th>has_dependents</th>
+      <th>service</th>
+      <th>online_security</th>
+      <th>cloud</th>
+      <th>antivirus</th>
+      <th>support</th>
+      <th>TV</th>
+      <th>movies</th>
+      <th>multy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>7590-VHVEG</td>
+      <td>Month-to-month</td>
+      <td>True</td>
+      <td>Electronic check</td>
+      <td>29.85</td>
+      <td>31.04</td>
+      <td>False</td>
+      <td>31</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>DSL</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>5575-GNVDE</td>
+      <td>One year</td>
+      <td>False</td>
+      <td>Mailed check</td>
+      <td>56.95</td>
+      <td>2071.84</td>
+      <td>False</td>
+      <td>1036</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>DSL</td>
+      <td>True</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>3668-QPYBK</td>
+      <td>Month-to-month</td>
+      <td>True</td>
+      <td>Mailed check</td>
+      <td>53.85</td>
+      <td>226.17</td>
+      <td>False</td>
+      <td>123</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>DSL</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table>
+
+
 ## 🔧 Tools and Technologies
 - Python: pandas, numpy, matplotlib, scipy, seaborn, sklearn
 - Jupyter Notebook
