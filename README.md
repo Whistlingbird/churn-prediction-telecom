@@ -48,6 +48,6 @@ The datasets include:
 ## 📊 Visualizations
 <img src="images/feature_importance.png" alt="Feature Importance" width="800%"/>
 <img src="images/confusion_matrix.png" alt="Confusion Matrix" width="40%"/>
-<img src="images/key_features_vs_churn.PNG" alt="churn_by_key_features" width="100%"/>
-<img src="images/correlation_heatmap.PNG" alt="Correlation Matrix" width="60%"/>
+<img src="images/churn_by_key_feature.PNG" alt="churn_by_key_features" width="100%"/>
+<img src="images/heatmap.PNG" alt="Correlation Matrix" width="60%"/>
 <img src="images/scores_vs_threshold.PNG" alt="scores_vs_threshold" width="100%"/>
